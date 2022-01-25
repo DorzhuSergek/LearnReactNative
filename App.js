@@ -15,12 +15,12 @@ export default function App() {
         <Tab.Screen
           name="News"
           component={News}
-          // options={{
-          //   // tabBarIcon: ({ tintColor }) => (
-          //   //   <Image source={require("./assets/news.svg")} />
-          //   // ),
-          //   tabBarIcon: require("./assets/news.svg"),
-          // }}
+          options={{
+            // tabBarIcon: ({ tintColor }) => (
+            //   <Image source={require("./assets/news.svg")} />
+            // ),
+            // tabBarIcon: require("./assets/news.svg"),
+          }}
         />
         <Tab.Screen name="Players" component={Player} />
         <Tab.Screen name="Top Team" component={Team} />

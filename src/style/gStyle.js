@@ -26,4 +26,9 @@ export const gStyle = StyleSheet.create({
     marginTop: 20,
   },
   time: { justifyContent: "flex-end" },
+  image: {
+    width: 100,
+    height:100,
+    margin:'auto'
+  },
 });

@@ -13,7 +13,7 @@ export default function News({ navigation }) {
       .catch((error) => alert.error)
       .finally(() => setLoading(false));
   });
-
+  
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
       <FlatList

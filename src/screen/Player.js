@@ -1,10 +1,10 @@
 import * as React from "react";
 import { Button, Text, View } from "react-native";
 
-export default function SettingsScreen({ navigation }) {
+export default function SettingsScreen({ navigation,route }) {
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text>Player!</Text>
+      <Text>{route.params.name}</Text>
     </View>
   );
 }
