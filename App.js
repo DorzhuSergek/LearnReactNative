@@ -13,7 +13,7 @@ export default function App() {
     <NavigationContainer>
       <Tab.Navigator>
         <Tab.Screen
-          name="News"
+          name="Movies"
           component={News}
           options={{
             // tabBarIcon: ({ tintColor }) => (
@@ -22,8 +22,8 @@ export default function App() {
             // tabBarIcon: require("./assets/news.svg"),
           }}
         />
-        <Tab.Screen name="Players" component={Player} />
-        <Tab.Screen name="Top Team" component={Team} />
+        {/* <Tab.Screen name="Players" component={Player} /> */}
+        <Tab.Screen name="Info" component={Team} />
       </Tab.Navigator>
     </NavigationContainer>
   );

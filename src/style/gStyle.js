@@ -27,8 +27,13 @@ export const gStyle = StyleSheet.create({
   },
   time: { justifyContent: "flex-end" },
   image: {
-    width: 100,
-    height:100,
+    width: 375,
+    height:562,
     margin:'auto'
   },
+  imageBack:{
+    width: 375,
+    height:562,
+    margin:'auto',
+  }
 });
